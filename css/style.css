@@ -1,0 +1,28 @@
+.container-fluid {
+    padding: 0;
+}
+
+.carousel-caption {
+    top: 30%;
+}
+.carousel-caption p{
+    font-size: 22px;
+    margin-bottom: 100px;
+    font-weight: 300;
+}
+
+.carousel-caption h3{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.carousel-indicators .active {
+    background-color: #65DAF9;
+}
+img.ca:hover{
+	opacity:0.85;
+	-moz-opacity: 0.70;
+	filter: alpha(opacity=65);
+    }
+    #carouselSite .carousel-inner, #carouselSite .carousel-item {
+        height: 80vh;
+    }
