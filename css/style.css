@@ -24,5 +24,20 @@ img.ca:hover{
 	filter: alpha(opacity=65);
     }
     #carouselSite .carousel-inner, #carouselSite .carousel-item {
-        height: 80vh;
+        height: 88vh;
     }
+    .carousel-item img{
+        max-width: 100%;
+        width: 100%;
+        max-height: 100%;
+        background-size: cover;
+    }
+    button{
+        pointer-events: none
+    }
+    @media (max-width: 500px) {  
+        .carousel-inner img {
+            display: none;
+        }
+    }
+    
